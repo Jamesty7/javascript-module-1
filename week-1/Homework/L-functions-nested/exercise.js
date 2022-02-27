@@ -10,8 +10,8 @@ function spellsName(mentor) {
     return mentor.toUpperCase()
 }
 
-function studentsNames(mentor1) {
-    return greet + spellsName(mentor1)
+function studentsNames(mentor) {
+    return greet + spellsName(mentor)
 }
 
 console.log(studentsNames(mentor1));
