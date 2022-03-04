@@ -9,3 +9,6 @@ function numberChecker(num) {
     return `${num} isn't even a number :(`;
   }
 }
+
+// It will console "is greater than 20" if it the numebr is more than 20
+//
