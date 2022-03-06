@@ -9,8 +9,9 @@
 */
 
 function containsCode(sentence) {
+  return sentence.includes ("code"); 
 
-}
+  }
 
 /* 
 DO NOT EDIT BELOW THIS LINE
