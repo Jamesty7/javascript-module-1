@@ -17,7 +17,8 @@
 
   function stringClearner(messyStrings) {
       return messyStrings
-      .filter((string) => typeof string === "string")
+      .filter((messyString) => typeof messyString === "string")
       .map((string) => string.toUpperCase() + "!")
       
   }
+  
